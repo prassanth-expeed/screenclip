@@ -21,8 +21,9 @@ Click **More info** → **Run anyway**. Requires Windows 10 (2004+) or Windows 1
 - Capture an **area** (drag), a **window** (hover to highlight, click to pick) or a whole **display**.
 - Multi-monitor and mixed-DPI aware. Captures are pixel-exact.
 - Built-in editor: pen, highlighter, line, arrow, rectangle, ellipse, text (any font, size, bold/italic and colour),
-  numbered steps, pixelate. Crop, rotate, flip and resize; annotations move with the image. Undo/redo, zoom,
-  copy to clipboard, save as PNG, JPG or WebP.
+  numbered steps, pixelate. Every annotation stays editable: select it to move, resize, restyle, retype or
+  delete it. Crop, rotate, flip and resize the image; annotations move with it. Undo/redo, zoom, copy to
+  clipboard, save as PNG, JPG or WebP.
 - Optional auto-save and copy-to-clipboard on capture.
 - Copy text (OCR): select an area of the screen, or read an image, and get its text on the clipboard. Uses the
   OCR engine built into Windows, offline, in the languages you have installed.
