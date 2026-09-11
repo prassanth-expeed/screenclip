@@ -1,6 +1,6 @@
 # ScreenClip
 
-A fast, polished screenshot, screen-recording and voice-recording tool for Windows.
+A fast, polished screenshot, screen-recording and voice-recording tool for Windows and macOS.
 
 ## Download
 
@@ -11,9 +11,12 @@ No installation of Python or anything else is needed.
 |---|---|
 | `ScreenClip-<version>-win64-portable.exe` | Single file, runs from anywhere (unpacks on each launch, so it starts a little slower) |
 | `ScreenClip-<version>-win64.zip` | Unzip and run `ScreenClip\ScreenClip.exe`; fastest start |
+| `ScreenClip-<version>-macos-arm64.dmg` | macOS on Apple Silicon (M1 and later): open the DMG and drag ScreenClip to Applications |
 
-The executables are not code-signed, so Windows SmartScreen may show "Windows protected your PC" the first time.
-Click **More info** → **Run anyway**. Requires Windows 10 (2004+) or Windows 11, 64-bit.
+The builds are not code-signed. On Windows, SmartScreen may show "Windows protected your PC" the first time:
+click **More info** → **Run anyway** (Windows 10 2004+ or Windows 11, 64-bit). On macOS, Gatekeeper may say the
+app "is damaged" or is from an unidentified developer: right-click the app and choose **Open**, or run
+`xattr -d com.apple.quarantine /Applications/ScreenClip.app` once in Terminal.
 
 ## Features
 
@@ -65,4 +68,4 @@ Bug reports and ideas are welcome: open an [issue](https://github.com/prassanth-
 include your Windows version, monitor layout (count and scaling) and the steps that reproduce the problem.
 
 ---
-[MIT licensed](LICENSE) · Windows 10 (2004+) and Windows 11.
+[MIT licensed](LICENSE) · Windows 10 (2004+) and Windows 11 · macOS (Apple Silicon).
