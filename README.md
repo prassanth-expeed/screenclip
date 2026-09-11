@@ -21,8 +21,11 @@ Click **More info** → **Run anyway**. Requires Windows 10 (2004+) or Windows 1
 - Capture an **area** (drag), a **window** (hover to highlight, click to pick) or a whole **display**.
 - Multi-monitor and mixed-DPI aware. Captures are pixel-exact.
 - Built-in editor: pen, highlighter, line, arrow, rectangle, ellipse, text (any font, size, bold/italic and colour),
-  numbered steps, pixelate. Undo/redo, zoom, copy to clipboard, save as PNG, JPG or WebP.
+  numbered steps, pixelate. Crop, rotate, flip and resize; annotations move with the image. Undo/redo, zoom,
+  copy to clipboard, save as PNG, JPG or WebP.
 - Optional auto-save and copy-to-clipboard on capture.
+- Copy text (OCR): select an area of the screen, or read an image, and get its text on the clipboard. Uses the
+  OCR engine built into Windows, offline, in the languages you have installed.
 
 **Screen recording**
 - Record an area, a window (follows it when it moves) or a display to H.264 MP4, 15–60 fps, four quality presets.
@@ -49,6 +52,7 @@ Click **More info** → **Run anyway**. Requires Windows 10 (2004+) or Windows 1
 | Ctrl+Shift+F | Capture a display |
 | Ctrl+Shift+R | Record an area |
 | Ctrl+Shift+M | Record voice (microphone) |
+| Ctrl+Shift+O | Copy text from an area (OCR) |
 | Ctrl+Shift+P | Pause / resume recording |
 | Ctrl+Shift+X | Stop recording |
 
