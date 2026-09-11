@@ -1,6 +1,6 @@
 # ScreenClip
 
-A fast, polished screenshot, screen-recording and voice-recording tool for Windows and macOS.
+A fast, polished screenshot, screen-recording and voice-recording tool for Windows, macOS and Linux.
 
 ## Download
 
@@ -12,11 +12,17 @@ No installation of Python or anything else is needed.
 | `ScreenClip-<version>-win64-portable.exe` | Single file, runs from anywhere (unpacks on each launch, so it starts a little slower) |
 | `ScreenClip-<version>-win64.zip` | Unzip and run `ScreenClip\ScreenClip.exe`; fastest start |
 | `ScreenClip-<version>-macos-arm64.dmg` | macOS on Apple Silicon (M1 and later): open the DMG and drag ScreenClip to Applications |
+| `ScreenClip-<version>-linux-x86_64.tar.gz` | Linux, 64-bit x86, X11 session: unpack and run `ScreenClip/ScreenClip` |
 
 The builds are not code-signed. On Windows, SmartScreen may show "Windows protected your PC" the first time:
 click **More info** → **Run anyway** (Windows 10 2004+ or Windows 11, 64-bit). On macOS, Gatekeeper may say the
 app "is damaged" or is from an unidentified developer: right-click the app and choose **Open**, or run
 `xattr -d com.apple.quarantine /Applications/ScreenClip.app` once in Terminal.
+
+Linux notes: needs `libxcb-cursor0 libxkbcommon-x11-0 libegl1 libgl1 libportaudio2` (Debian/Ubuntu names) and
+`tesseract-ocr` for Copy text. Screen recording needs an X11 session; window picking, system-audio capture and
+global shortcuts are not available on Linux yet. The tray icon needs a StatusNotifier host (KDE, or the
+AppIndicator extension on GNOME).
 
 ## Features
 
@@ -68,4 +74,4 @@ Bug reports and ideas are welcome: open an [issue](https://github.com/prassanth-
 include your Windows version, monitor layout (count and scaling) and the steps that reproduce the problem.
 
 ---
-[MIT licensed](LICENSE) · Windows 10 (2004+) and Windows 11 · macOS (Apple Silicon).
+[MIT licensed](LICENSE) · Windows 10 (2004+) and Windows 11 · macOS (Apple Silicon) · Linux x86_64 (X11).
